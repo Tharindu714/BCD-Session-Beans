@@ -1,0 +1,20 @@
+   Portable JNDI names for EJB UserDetailsBean: [
+                 java:global/EJBModule/UserDetailsBean!com.deltacodex.ee.ejb.remote.UserDetails, 
+                 java:global/EJBModule/UserDetailsBean]]]
+
+After Changing The Name
+  Portable JNDI names for EJB UserInfo: [
+                 java:global/EJBModule/UserInfo!com.deltacodex.ee.ejb.remote.UserDetails, 
+                 java:global/EJBModule/UserInfo]]]
+
+After Changing Mapped Name
+  Portable JNDI names for EJB UserInfo: [
+                  java:global/EJBModule/UserInfo!com.deltacodex.ee.ejb.remote.UserDetails, 
+                  java:global/EJBModule/UserInfo]]]
+
+Doesn't make any sense for this JNDI... But 
+  Glassfish-specific (Non-portable) JNDI names for EJB UserInfo: 
+                 [User_mappedName, 
+                  User_mappedName#com.deltacodex.ee.ejb.remote.UserDetails]]]
+We can only use these non portable names in a same server
+
